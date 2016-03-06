@@ -1,24 +1,44 @@
 body {
-	font-size: 16px;
+}
+
+.navbar-header{
+	padding :0px;
+}
+
+.menu-text{
+	padding-top: 75px;
+}
+
+.navbar-brand {
 	font-family: 'Slabo 27px', serif;
-	background-color: #456802;
-}
-
-#logo-image {
-	background: url(../images/logo.png) no-repeat center;
-	background-size: 100% 100%;
-	width: 100px;
-	height:100px;
-	margin : 15px;
-}
-
-h1{
-	font-size: 3.5em;
 	font-weight: bold;
 	text-shadow: 2px;
+	font-size: 200%;
+	color: #987890;
+	text-transform: uppercase;
 }
 
-.navbar-brand h1{
-	text-transform: uppercase;
-	text-shadow: 2px;
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+.grid-class{
+	background-color: green;
+  	position: relative;
+  	background-color: grey;
+  	border : 1px solid black;
+  	margin: 10px;
+  	font-size: 125%;
+}
+
+#menu-options a:hover, #menu-options a:focus{
+	text-decoration: none;
+	color:black;
+	border : 1px solid black;
+}
+
+#menu-options{
+	padding: 0px;
+	margin: 0px;
+	/*border : 1px solid black;*/
 }
