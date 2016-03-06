@@ -1,25 +1,31 @@
 body {
+	padding: 60px;
 }
 
 .navbar-header{
 	padding :0px;
 }
 
-.menu-text{
-	padding-top: 75px;
-}
 
 .navbar-brand {
 	font-family: 'Slabo 27px', serif;
+
 	font-weight: bold;
 	text-shadow: 2px;
 	font-size: 200%;
-	color: #987890;
 	text-transform: uppercase;
+
 }
 
+#brand-name{
+	color:red;
+}
 .navbar-brand a:hover, .navbar-brand a:focus{
   text-decoration: none;
+}
+
+.menu-headers{
+	padding-top: 10px;
 }
 
 .grid-class{
@@ -30,15 +36,25 @@ body {
   	margin: 10px;
   	font-size: 125%;
 }
-
+#menu-options{
+	color:black;
+}
 #menu-options a:hover, #menu-options a:focus{
 	text-decoration: none;
+}
+/*
+#menu-options{
+	padding: 10px;
+	margin: 10px;
 	color:black;
-	border : 1px solid black;
+	border-bottom : 1px solid black;
+	border-left: 1px;
+	border-right: 1px;
 }
 
-#menu-options{
+.menu-items{
 	padding: 0px;
 	margin: 0px;
-	/*border : 1px solid black;*/
-}
+	color:black;
+	border-top : 1px solid black;
+}*/
