@@ -1,0 +1,24 @@
+body {
+	font-size: 16px;
+	font-family: 'Slabo 27px', serif;
+	background-color: #456802;
+}
+
+#logo-image {
+	background: url(../images/logo.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 100px;
+	height:100px;
+	margin : 15px;
+}
+
+h1{
+	font-size: 3.5em;
+	font-weight: bold;
+	text-shadow: 2px;
+}
+
+.navbar-brand h1{
+	text-transform: uppercase;
+	text-shadow: 2px;
+}
